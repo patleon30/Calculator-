@@ -1,38 +1,46 @@
-/*
-  Create a function that multiplies two numbers
-  passed in as arguments. Return the product.
- */
-  1. First number
-    2. Second number
-    3. A function that performs an operation on them
+let input1 = document.getElementById("1")
+let input2 = document.getElementById("2")
 
-  Return the value of the operation.
- */
+let multiply = document.getElementById("multiply");
+console.log(multiply)
+multiply.addEventListener("click", function(){
+  multiplication(input1.value, input2.value)
+});
+function multiplication(x, y){
+  console.log(x * y)
+return  x * y 
+}
 
-/*
-  Create a function that adds two numbers
-  passed in as arguments. Return the sum.
- */
+let add = document.getElementById("add");
+console.log(add)
+add.addEventListener("click", function(){
+  addition(input1.value, input2.value)
+});
+function addition(x, y){
+  console.log (parseInt (x) + parseInt (y))
+return  x + y 
+}
+
+let subtract = document.getElementById("subtract");
+console.log(subtract)
+subtract.addEventListener("click", function(){
+  subtraction(input1.value, input2.value)
+});
+function subtraction(x, y){
+  console.log(x - y)
+return x - y 
+ }
 
 
-/*
-  Create a function that subtracts two numbers
-  passed in as arguments. Return the difference.
- */
+
+let divide = document.getElementById("divide");
+console.log(divide)
+divide.addEventListener("click", function(){
+  division(input1.value, input2.value)
+});
+function division(x, y){
+  console.log(x / y)
+return x / y
+}
 
 
-/*
-  Create a function that divides two numbers
-  passed in as arguments. Return the quotient.
- */
-
-
-
-/*
-  Create a function that accepts three arguments.
-    1. First number
-    2. Second number
-    3. A function that performs an operation on them
-
-  Return the value of the operation.
- */
