@@ -31,8 +31,6 @@ function subtraction(x, y){
 return x - y 
  }
 
-
-
 let divide = document.getElementById("divide");
 console.log(divide)
 divide.addEventListener("click", function(){
